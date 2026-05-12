@@ -35,18 +35,6 @@ export function Hero() {
       </div>
 
       <div className="relative z-10 mx-auto max-w-6xl px-6 text-center">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1, delay: 0.2 }}
-          className="mb-6 inline-flex items-center gap-3 rounded-full border border-gold/30 bg-background/40 px-5 py-2 backdrop-blur"
-        >
-          <span className="h-1.5 w-1.5 rounded-full bg-gold animate-pulse-glow" />
-          <span className="font-cinzel text-[11px] tracking-[0.3em] text-gold">
-            FINE DINING · KARACHI
-          </span>
-        </motion.div>
-
         <motion.h1
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
