@@ -65,7 +65,7 @@ export function Hero() {
           className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4"
         >
           <a
-            href="#menu"
+            href="/menu"
             className="group relative inline-flex items-center gap-2 rounded-full bg-gradient-gold px-8 py-4 text-sm font-semibold uppercase tracking-widest text-background shadow-gold transition-transform hover:-translate-y-0.5"
           >
             <Utensils className="h-4 w-4" />
@@ -73,7 +73,7 @@ export function Hero() {
             <span className="absolute inset-0 rounded-full opacity-0 group-hover:opacity-100 transition-opacity animate-shimmer" />
           </a>
           <a
-            href="#reserve"
+            href="/reservation"
             className="group inline-flex items-center gap-2 rounded-full border border-gold/40 bg-background/30 px-8 py-4 text-sm font-semibold uppercase tracking-widest text-gold backdrop-blur transition-all hover:bg-gold hover:text-background hover:shadow-gold"
           >
             Reserve Table
