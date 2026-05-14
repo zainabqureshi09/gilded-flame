@@ -86,14 +86,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "GB Flame & Flavor — Premium Chinese & BBQ Restaurant in Karachi" },
+      { name: "description", content: "Cinematic fine-dining in Karachi. Signature Chinese, BBQ and modern fusion." },
+      { name: "author", content: "GB Flame & Flavor" },
+      { property: "og:title", content: "GB Flame & Flavor" },
+      { property: "og:description", content: "Where every bite feels like luxury." },
       { property: "og:type", content: "website" },
-      { name: "twitter:card", content: "summary" },
-      { name: "twitter:site", content: "@Lovable" },
+      { property: "og:site_name", content: "GB Flame & Flavor" },
+      { name: "twitter:card", content: "summary_large_image" },
     ],
     links: [
       {
