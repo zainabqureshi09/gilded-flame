@@ -27,8 +27,7 @@ export function CursorGlow() {
         opacity: visible ? 1 : 0,
         width: 400,
         height: 400,
-        background:
-          "radial-gradient(circle, rgba(212,175,55,0.12) 0%, transparent 60%)",
+        background: "radial-gradient(circle, rgba(212,175,55,0.12) 0%, transparent 60%)",
         mixBlendMode: "screen",
       }}
     />

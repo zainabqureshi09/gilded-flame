@@ -8,7 +8,11 @@ export const Route = createFileRoute("/gallery")({
   head: () => ({
     meta: [
       { title: "Gallery — GB Flame & Flavor | Premium Dining Karachi" },
-      { name: "description", content: "Step inside GB Flame & Flavor through our cinematic gallery — signature dishes, golden interiors and master chefs at work." },
+      {
+        name: "description",
+        content:
+          "Step inside GB Flame & Flavor through our cinematic gallery — signature dishes, golden interiors and master chefs at work.",
+      },
       { property: "og:title", content: "Gallery — GB Flame & Flavor" },
       { property: "og:description", content: "A taste of GB Flame & Flavor in frames." },
       { property: "og:url", content: "/gallery" },

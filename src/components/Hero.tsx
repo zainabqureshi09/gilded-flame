@@ -43,9 +43,7 @@ export function Hero() {
         >
           Where Every Bite
           <br />
-          <span className="text-gradient-gold italic font-serif-luxe">
-            Feels Like Luxury
-          </span>
+          <span className="text-gradient-gold italic font-serif-luxe">Feels Like Luxury</span>
         </motion.h1>
 
         <motion.p
@@ -54,8 +52,8 @@ export function Hero() {
           transition={{ duration: 1, delay: 0.9 }}
           className="mx-auto mt-8 max-w-2xl text-base md:text-lg text-cream/70 leading-relaxed"
         >
-          A cinematic culinary journey across signature Chinese, BBQ and modern
-          fusion — crafted by master chefs, served in golden candlelight.
+          A cinematic culinary journey across signature Chinese, BBQ and modern fusion — crafted by
+          master chefs, served in golden candlelight.
         </motion.p>
 
         <motion.div
@@ -94,12 +92,8 @@ export function Hero() {
             ["50K+", "Guests"],
           ].map(([n, l]) => (
             <div key={l} className="text-center">
-              <div className="font-display text-3xl md:text-4xl text-gradient-gold">
-                {n}
-              </div>
-              <div className="mt-1 text-[10px] uppercase tracking-[0.25em] text-cream/50">
-                {l}
-              </div>
+              <div className="font-display text-3xl md:text-4xl text-gradient-gold">{n}</div>
+              <div className="mt-1 text-[10px] uppercase tracking-[0.25em] text-cream/50">{l}</div>
             </div>
           ))}
         </motion.div>
@@ -112,9 +106,7 @@ export function Hero() {
         transition={{ delay: 2 }}
         className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2"
       >
-        <span className="text-[10px] uppercase tracking-[0.3em] text-cream/50">
-          Scroll
-        </span>
+        <span className="text-[10px] uppercase tracking-[0.3em] text-cream/50">Scroll</span>
         <div className="h-12 w-px bg-gradient-to-b from-gold to-transparent" />
       </motion.div>
     </section>

@@ -8,7 +8,11 @@ export const Route = createFileRoute("/testimonials")({
   head: () => ({
     meta: [
       { title: "Reviews — GB Flame & Flavor | Karachi's Best Restaurant" },
-      { name: "description", content: "What our guests say about Karachi's most cinematic Chinese & BBQ dining experience at GB Flame & Flavor." },
+      {
+        name: "description",
+        content:
+          "What our guests say about Karachi's most cinematic Chinese & BBQ dining experience at GB Flame & Flavor.",
+      },
       { property: "og:title", content: "Guest Reviews — GB Flame & Flavor" },
       { property: "og:description", content: "Real stories from real guests." },
       { property: "og:url", content: "/testimonials" },

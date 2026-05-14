@@ -4,7 +4,11 @@ import { AnimatePresence, motion } from "framer-motion";
 type Item = { name: string; desc: string; price: string };
 const menu: Record<string, Item[]> = {
   Chinese: [
-    { name: "Kung Pao Chicken", desc: "Wok-fired chicken, peanuts, dried chili.", price: "PKR 1,650" },
+    {
+      name: "Kung Pao Chicken",
+      desc: "Wok-fired chicken, peanuts, dried chili.",
+      price: "PKR 1,650",
+    },
     { name: "Manchurian Beef", desc: "Crispy beef, tangy garlic glaze.", price: "PKR 1,850" },
     { name: "Schezwan Prawns", desc: "Tiger prawns, schezwan butter.", price: "PKR 2,400" },
     { name: "Hakka Noodles", desc: "Hand-pulled noodles, vegetables.", price: "PKR 1,250" },
@@ -16,7 +20,11 @@ const menu: Record<string, Item[]> = {
     { name: "Malai Boti", desc: "Cream-marinated, slow charred.", price: "PKR 1,550" },
   ],
   "Burgers & Pasta": [
-    { name: "GB Signature Burger", desc: "Aged beef, smoked cheddar, gold bun.", price: "PKR 1,750" },
+    {
+      name: "GB Signature Burger",
+      desc: "Aged beef, smoked cheddar, gold bun.",
+      price: "PKR 1,750",
+    },
     { name: "Truffle Carbonara", desc: "Egg yolk, pancetta, black truffle.", price: "PKR 2,200" },
     { name: "Penne Arrabbiata", desc: "Spicy tomato, fresh basil.", price: "PKR 1,650" },
     { name: "Crispy Chicken Burger", desc: "Buttermilk fried, slaw.", price: "PKR 1,450" },

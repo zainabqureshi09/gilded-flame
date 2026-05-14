@@ -10,9 +10,19 @@ import appetizer from "@/assets/dish-appetizer.jpg";
 import dessert from "@/assets/dish-dessert.jpg";
 
 const dishes = [
-  { img: chinese, name: "Chinese Specialties", tag: "Chef's Pick", desc: "Wok-fired classics with house spice." },
+  {
+    img: chinese,
+    name: "Chinese Specialties",
+    tag: "Chef's Pick",
+    desc: "Wok-fired classics with house spice.",
+  },
   { img: bbq, name: "BBQ Platters", tag: "Smoked", desc: "Charcoal-grilled, slow-marinated." },
-  { img: burger, name: "Signature Burgers", tag: "Premium", desc: "Aged beef, brioche, melted gold." },
+  {
+    img: burger,
+    name: "Signature Burgers",
+    tag: "Premium",
+    desc: "Aged beef, brioche, melted gold.",
+  },
   { img: pasta, name: "Truffle Pasta", tag: "Italian", desc: "Hand-rolled, parmesan-glazed." },
   { img: rice, name: "Rice Dishes", tag: "Aromatic", desc: "Saffron biryani & fried rice." },
   { img: family, name: "Family Deals", tag: "Sharing", desc: "Feasts crafted for the table." },

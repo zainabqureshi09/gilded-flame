@@ -12,7 +12,12 @@ export function Contact() {
           </h2>
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-          <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="lg:col-span-2 glass rounded-2xl overflow-hidden h-[400px]">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="lg:col-span-2 glass rounded-2xl overflow-hidden h-[400px]"
+          >
             <iframe
               title="GB Flame & Flavor Map"
               src="https://www.openstreetmap.org/export/embed.html?bbox=67.0%2C24.85%2C67.1%2C24.95&layer=mapnik"
@@ -21,7 +26,12 @@ export function Contact() {
             />
           </motion.div>
 
-          <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="glass rounded-2xl p-8 space-y-6">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="glass rounded-2xl p-8 space-y-6"
+          >
             <Item icon={MapPin} title="Address" text="DHA Phase 6, Karachi, Pakistan" />
             <Item icon={Phone} title="Phone" text="+92 300 0000000" />
             <Item icon={Mail} title="Email" text="hello@gbflame.com" />
@@ -29,7 +39,11 @@ export function Contact() {
               <div className="text-xs uppercase tracking-widest text-cream/60 mb-3">Follow</div>
               <div className="flex gap-3">
                 {[Instagram, Facebook, MessageCircle].map((Icon, i) => (
-                  <a key={i} href="#" className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-gold/40 text-gold transition-all hover:bg-gold hover:text-background hover:shadow-gold">
+                  <a
+                    key={i}
+                    href="#"
+                    className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-gold/40 text-gold transition-all hover:bg-gold hover:text-background hover:shadow-gold"
+                  >
                     <Icon className="h-4 w-4" />
                   </a>
                 ))}

@@ -8,7 +8,11 @@ export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
       { title: "Contact — GB Flame & Flavor | Karachi" },
-      { name: "description", content: "Visit, call or WhatsApp GB Flame & Flavor in DHA Phase 6, Karachi. We're open seven nights a week." },
+      {
+        name: "description",
+        content:
+          "Visit, call or WhatsApp GB Flame & Flavor in DHA Phase 6, Karachi. We're open seven nights a week.",
+      },
       { property: "og:title", content: "Contact — GB Flame & Flavor" },
       { property: "og:description", content: "Find us in DHA Phase 6, Karachi." },
       { property: "og:url", content: "/contact" },

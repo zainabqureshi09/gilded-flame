@@ -10,9 +10,16 @@ export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
       { title: "About — GB Flame & Flavor | Premium Restaurant Karachi" },
-      { name: "description", content: "Discover the story, philosophy and master chefs behind GB Flame & Flavor — Karachi's most cinematic Chinese & BBQ dining experience." },
+      {
+        name: "description",
+        content:
+          "Discover the story, philosophy and master chefs behind GB Flame & Flavor — Karachi's most cinematic Chinese & BBQ dining experience.",
+      },
       { property: "og:title", content: "About — GB Flame & Flavor" },
-      { property: "og:description", content: "The story behind Karachi's premium fine-dining destination." },
+      {
+        property: "og:description",
+        content: "The story behind Karachi's premium fine-dining destination.",
+      },
       { property: "og:url", content: "/about" },
     ],
     links: [{ rel: "canonical", href: "/about" }],

@@ -22,7 +22,8 @@ export function WhyUs() {
         >
           <span className="font-cinzel text-xs tracking-[0.3em] text-gold">WHY US</span>
           <h2 className="mt-4 font-display text-4xl md:text-6xl">
-            Six reasons we're <span className="text-gradient-gold italic font-serif-luxe">different</span>.
+            Six reasons we're{" "}
+            <span className="text-gradient-gold italic font-serif-luxe">different</span>.
           </h2>
         </motion.div>
 

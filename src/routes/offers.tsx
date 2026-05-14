@@ -12,7 +12,11 @@ export const Route = createFileRoute("/offers")({
   head: () => ({
     meta: [
       { title: "Offers & Deals — GB Flame & Flavor | Premium Dining Karachi" },
-      { name: "description", content: "Exclusive dining deals, family platters and seasonal offers at GB Flame & Flavor — Karachi's premium Chinese & BBQ restaurant." },
+      {
+        name: "description",
+        content:
+          "Exclusive dining deals, family platters and seasonal offers at GB Flame & Flavor — Karachi's premium Chinese & BBQ restaurant.",
+      },
       { property: "og:title", content: "Offers & Deals — GB Flame & Flavor" },
       { property: "og:description", content: "Limited-time premium dining offers in Karachi." },
       { property: "og:url", content: "/offers" },
@@ -127,8 +131,8 @@ function OffersPage() {
 
           <div className="mt-16 text-center">
             <p className="text-cream/60 max-w-xl mx-auto">
-              Looking for something custom? We curate private chef tables, corporate
-              dinners and intimate celebrations.
+              Looking for something custom? We curate private chef tables, corporate dinners and
+              intimate celebrations.
             </p>
             <Link
               to="/reservation"

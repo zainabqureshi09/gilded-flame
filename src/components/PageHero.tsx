@@ -18,11 +18,7 @@ export function PageHero({
   return (
     <section className="relative min-h-[70vh] w-full overflow-hidden flex items-center justify-center pt-32 pb-20">
       <div className="absolute inset-0">
-        <img
-          src={image || hero}
-          alt=""
-          className="h-full w-full object-cover animate-slow-zoom"
-        />
+        <img src={image || hero} alt="" className="h-full w-full object-cover animate-slow-zoom" />
         <div className="absolute inset-0 bg-gradient-hero" />
         <div className="absolute inset-0 bg-background/60" />
       </div>
@@ -44,9 +40,7 @@ export function PageHero({
         >
           {title}{" "}
           {highlight && (
-            <span className="text-gradient-gold italic font-serif-luxe">
-              {highlight}
-            </span>
+            <span className="text-gradient-gold italic font-serif-luxe">{highlight}</span>
           )}
         </motion.h1>
         {subtitle && (

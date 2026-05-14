@@ -25,7 +25,12 @@ export function About() {
             transition={{ duration: 0.8 }}
             className="absolute top-0 left-0 w-3/5 h-3/5 overflow-hidden rounded-2xl shadow-luxe"
           >
-            <img src={interior} alt="Interior" className="h-full w-full object-cover hover:scale-110 transition-transform duration-1000" loading="lazy" />
+            <img
+              src={interior}
+              alt="Interior"
+              className="h-full w-full object-cover hover:scale-110 transition-transform duration-1000"
+              loading="lazy"
+            />
           </motion.div>
           <motion.div
             initial={{ opacity: 0, y: 60 }}
@@ -34,7 +39,12 @@ export function About() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="absolute bottom-0 right-0 w-3/5 h-3/5 overflow-hidden rounded-2xl shadow-luxe border-2 border-gold/20"
           >
-            <img src={chef} alt="Chef" className="h-full w-full object-cover hover:scale-110 transition-transform duration-1000" loading="lazy" />
+            <img
+              src={chef}
+              alt="Chef"
+              className="h-full w-full object-cover hover:scale-110 transition-transform duration-1000"
+              loading="lazy"
+            />
           </motion.div>
           <motion.div
             initial={{ opacity: 0, scale: 0.8 }}
@@ -61,15 +71,13 @@ export function About() {
             </h2>
             <div className="gold-divider my-8 w-24" />
             <p className="text-cream/70 leading-relaxed text-lg">
-              For over a decade, GB Flame & Flavor has reimagined the art of
-              dining — blending the soul of authentic Chinese kitchens with
-              modern fine-dining precision. Every dish is a ritual of fire,
-              spice and craft.
+              For over a decade, GB Flame & Flavor has reimagined the art of dining — blending the
+              soul of authentic Chinese kitchens with modern fine-dining precision. Every dish is a
+              ritual of fire, spice and craft.
             </p>
             <p className="mt-4 text-cream/60 leading-relaxed">
-              From hand-pulled noodles to slow-charred BBQ platters, we serve
-              moments worth remembering, in a setting designed to feel like
-              cinema.
+              From hand-pulled noodles to slow-charred BBQ platters, we serve moments worth
+              remembering, in a setting designed to feel like cinema.
             </p>
           </motion.div>
 

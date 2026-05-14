@@ -8,9 +8,16 @@ export const Route = createFileRoute("/reservation")({
   head: () => ({
     meta: [
       { title: "Reserve a Table — GB Flame & Flavor Karachi" },
-      { name: "description", content: "Book your table at GB Flame & Flavor — Karachi's premium Chinese & BBQ restaurant. WhatsApp reservations available 24/7." },
+      {
+        name: "description",
+        content:
+          "Book your table at GB Flame & Flavor — Karachi's premium Chinese & BBQ restaurant. WhatsApp reservations available 24/7.",
+      },
       { property: "og:title", content: "Reserve a Table — GB Flame & Flavor" },
-      { property: "og:description", content: "Limited seating. Cinematic ambiance. Reserve your evening." },
+      {
+        property: "og:description",
+        content: "Limited seating. Cinematic ambiance. Reserve your evening.",
+      },
       { property: "og:url", content: "/reservation" },
     ],
     links: [{ rel: "canonical", href: "/reservation" }],

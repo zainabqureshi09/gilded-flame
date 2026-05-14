@@ -6,11 +6,36 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 
 const reviews = [
-  { name: "Sarah K.", role: "Food Critic", text: "The sizzling wok scene alone is worth the visit. Easily the most cinematic dining in Karachi.", rating: 5 },
-  { name: "Ahmed R.", role: "Regular Guest", text: "Every dish feels engineered. The tikka melts. The service is operatic. We come back monthly.", rating: 5 },
-  { name: "Zoya M.", role: "Travel Blogger", text: "I've eaten in Singapore, Tokyo, Dubai. GB belongs in that conversation. Stunning interior.", rating: 5 },
-  { name: "Bilal T.", role: "Family Diner", text: "Brought the whole family. Premium without being stiff — warm, generous, beautifully served.", rating: 5 },
-  { name: "Maria L.", role: "Chef", text: "The plating discipline here is rare. The flavors stay loud. A serious kitchen.", rating: 5 },
+  {
+    name: "Sarah K.",
+    role: "Food Critic",
+    text: "The sizzling wok scene alone is worth the visit. Easily the most cinematic dining in Karachi.",
+    rating: 5,
+  },
+  {
+    name: "Ahmed R.",
+    role: "Regular Guest",
+    text: "Every dish feels engineered. The tikka melts. The service is operatic. We come back monthly.",
+    rating: 5,
+  },
+  {
+    name: "Zoya M.",
+    role: "Travel Blogger",
+    text: "I've eaten in Singapore, Tokyo, Dubai. GB belongs in that conversation. Stunning interior.",
+    rating: 5,
+  },
+  {
+    name: "Bilal T.",
+    role: "Family Diner",
+    text: "Brought the whole family. Premium without being stiff — warm, generous, beautifully served.",
+    rating: 5,
+  },
+  {
+    name: "Maria L.",
+    role: "Chef",
+    text: "The plating discipline here is rare. The flavors stay loud. A serious kitchen.",
+    rating: 5,
+  },
 ];
 
 export function Testimonials() {

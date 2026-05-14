@@ -49,7 +49,12 @@ export function Gallery() {
               onClick={() => setActive(img.src)}
               className={`group relative overflow-hidden rounded-xl ${img.span}`}
             >
-              <img src={img.src} alt="" loading="lazy" className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110" />
+              <img
+                src={img.src}
+                alt=""
+                loading="lazy"
+                className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110"
+              />
               <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-background/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
               <div className="absolute inset-0 ring-1 ring-inset ring-gold/0 group-hover:ring-gold/40 transition-all rounded-xl" />
             </motion.button>
@@ -66,7 +71,10 @@ export function Gallery() {
             className="fixed inset-0 z-[200] flex items-center justify-center bg-background/90 backdrop-blur-md p-6"
             onClick={() => setActive(null)}
           >
-            <button className="absolute top-6 right-6 text-cream hover:text-gold" onClick={() => setActive(null)}>
+            <button
+              className="absolute top-6 right-6 text-cream hover:text-gold"
+              onClick={() => setActive(null)}
+            >
               <X className="h-8 w-8" />
             </button>
             <motion.img

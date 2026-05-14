@@ -24,8 +24,7 @@ export function Footer() {
               </div>
             </Link>
             <p className="mt-4 text-sm text-cream/60 leading-relaxed font-serif-luxe italic">
-              Where every bite feels like luxury. Karachi's most cinematic
-              dining destination.
+              Where every bite feels like luxury. Karachi's most cinematic dining destination.
             </p>
             <div className="mt-5 flex gap-3">
               {[

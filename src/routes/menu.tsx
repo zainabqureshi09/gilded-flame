@@ -9,9 +9,16 @@ export const Route = createFileRoute("/menu")({
   head: () => ({
     meta: [
       { title: "Full Menu — GB Flame & Flavor | Best Chinese Food Karachi" },
-      { name: "description", content: "Explore our curated menu of Chinese signatures, charcoal BBQ, gourmet burgers, pasta and desserts at GB Flame & Flavor, Karachi." },
+      {
+        name: "description",
+        content:
+          "Explore our curated menu of Chinese signatures, charcoal BBQ, gourmet burgers, pasta and desserts at GB Flame & Flavor, Karachi.",
+      },
       { property: "og:title", content: "Full Menu — GB Flame & Flavor" },
-      { property: "og:description", content: "A curated selection of Chinese, BBQ, burgers, pasta and desserts." },
+      {
+        property: "og:description",
+        content: "A curated selection of Chinese, BBQ, burgers, pasta and desserts.",
+      },
       { property: "og:url", content: "/menu" },
     ],
     links: [{ rel: "canonical", href: "/menu" }],

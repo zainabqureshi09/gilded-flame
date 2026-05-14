@@ -24,14 +24,26 @@ export function Experience() {
       <div className="mx-auto max-w-7xl px-6 mb-16 text-center">
         <span className="font-cinzel text-xs tracking-[0.3em] text-gold">EXPERIENCE</span>
         <h2 className="mt-4 font-display text-4xl md:text-6xl">
-          A dining ritual <span className="text-gradient-gold italic font-serif-luxe">in motion</span>.
+          A dining ritual{" "}
+          <span className="text-gradient-gold italic font-serif-luxe">in motion</span>.
         </h2>
       </div>
       <div className="relative h-[60vh]">
-        <motion.div style={{ x }} className="absolute top-0 left-0 flex gap-6 h-full will-change-transform">
+        <motion.div
+          style={{ x }}
+          className="absolute top-0 left-0 flex gap-6 h-full will-change-transform"
+        >
           {slides.map((s) => (
-            <div key={s.title} className="relative h-full w-[80vw] md:w-[55vw] lg:w-[45vw] overflow-hidden rounded-2xl shadow-luxe shrink-0">
-              <img src={s.img} alt={s.title} loading="lazy" className="h-full w-full object-cover" />
+            <div
+              key={s.title}
+              className="relative h-full w-[80vw] md:w-[55vw] lg:w-[45vw] overflow-hidden rounded-2xl shadow-luxe shrink-0"
+            >
+              <img
+                src={s.img}
+                alt={s.title}
+                loading="lazy"
+                className="h-full w-full object-cover"
+              />
               <div className="absolute inset-0 bg-gradient-to-t from-background via-background/40 to-transparent" />
               <div className="absolute bottom-0 left-0 p-8 md:p-10">
                 <h3 className="font-display text-3xl md:text-5xl text-cream">{s.title}</h3>
