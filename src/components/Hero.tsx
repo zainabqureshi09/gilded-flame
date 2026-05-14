@@ -7,7 +7,7 @@ export function Hero() {
   return (
     <section
       id="top"
-      className="relative min-h-screen w-full overflow-hidden flex items-center justify-center"
+      className="relative min-h-screen w-full overflow-hidden flex items-center justify-center pt-32 md:pt-36 pb-20"
     >
       {/* BG image with slow zoom */}
       <div className="absolute inset-0">
