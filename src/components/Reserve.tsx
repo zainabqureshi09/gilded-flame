@@ -34,10 +34,10 @@ export function Reserve() {
               WhatsApp Now
             </a>
             <a
-              href="#menu"
+              href="/menu"
               className="inline-flex items-center gap-2 rounded-full border border-gold/40 px-7 py-4 text-sm font-semibold uppercase tracking-widest text-gold hover:bg-gold/10"
             >
-              Order Now
+              View Menu
             </a>
           </div>
         </motion.div>
