@@ -127,7 +127,14 @@ function RootComponent() {
 
   return (
     <QueryClientProvider client={queryClient}>
-      <Outlet />
+      <main className="relative bg-background text-foreground overflow-x-hidden">
+        <CursorGlow />
+        <ScrollProgress />
+        <Navbar />
+        <Outlet />
+        <Footer />
+        <WhatsAppFloat />
+      </main>
     </QueryClientProvider>
   );
 }
