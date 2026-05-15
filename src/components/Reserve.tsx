@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Calendar, Users, Clock, MessageCircle } from "lucide-react";
+import { Calendar, Users, Clock, MessageCircle, type LucideIcon } from "lucide-react";
 import flames from "@/assets/gallery-flames.jpg";
 
 export function Reserve() {
@@ -82,7 +82,12 @@ export function Reserve() {
   );
 }
 
-function Field({ icon: Icon, label, ...rest }: any) {
+interface FieldProps extends React.InputHTMLAttributes<HTMLInputElement> {
+  icon?: LucideIcon;
+  label: string;
+}
+
+function Field({ icon: Icon, label, ...rest }: FieldProps) {
   return (
     <div>
       <label className="text-xs uppercase tracking-widest text-cream/60 flex items-center gap-1.5">

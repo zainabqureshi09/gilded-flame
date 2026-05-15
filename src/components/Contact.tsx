@@ -1,5 +1,13 @@
 import { motion } from "framer-motion";
-import { MapPin, Phone, Mail, Instagram, Facebook, MessageCircle } from "lucide-react";
+import {
+  MapPin,
+  Phone,
+  Mail,
+  Instagram,
+  Facebook,
+  MessageCircle,
+  type LucideIcon,
+} from "lucide-react";
 
 export function Contact() {
   return (
@@ -56,7 +64,7 @@ export function Contact() {
   );
 }
 
-function Item({ icon: Icon, title, text }: { icon: any; title: string; text: string }) {
+function Item({ icon: Icon, title, text }: { icon: LucideIcon; title: string; text: string }) {
   return (
     <div className="flex gap-4">
       <div className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-gradient-gold text-background">
